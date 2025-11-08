@@ -21,7 +21,7 @@ function getMatrixElementsSum(matrix) {
 
   let sum = 0;
   const cols = matrix[0].length;
-  const blocked = Array(cols).fill(false); // отмечаем столбцы, где встретился 0
+  const blocked = Array(cols).fill(false); 
 
   for (let row of matrix) {
     for (let col = 0; col < cols; col++) {
